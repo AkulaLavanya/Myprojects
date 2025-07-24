@@ -1,0 +1,97 @@
+# Day - 1
+
+#- **Create a variable** with the value `True` and print it.
+	value=True
+	print(value)
+
+#- **Create a variable** with the value `False` and print it.
+	value=False
+	print(value)
+
+#- **Check if 10 is greater than 5** using a Boolean expression and print the result.
+	value=10>5
+	print(value)
+
+#- **Check if 3 is equal to 3** using a Boolean expression and print the result.
+	value=3==3
+	print(value)
+
+#- **Check if a number is greater than 20** and print `True` or `False`.
+	num=25
+	print(num>20)
+
+#- **Check if a string is equal to `"hello"`** and print `True` or `False`.
+	string="hello"
+	print(string=="hello")
+
+#- **Check if 7 is not equal to 8** and print the result.
+	print(7!=8)
+
+#- **Use the `and` operator** to check if both conditions are `True` (e.g., `5 > 3` and `4 < 7`).
+	print(5>3 and 4<7)
+
+#- **Use the `or` operator** to check if at least one condition is `True` (e.g., `5 > 3` or `10 < 2`).
+	print(5>3 or 10<2)
+
+#- **Create a variable** with an integer value `10` and print it.
+	value=10
+	print(value)
+
+#- **Create a variable** with a float value `3.14` and print it.
+	value=3.14
+	print(value)
+
+#- **Add two numbers** (e.g., `5 + 3`) and print the result.
+	a=5
+	b=3
+	print(a+b)
+
+#- **Subtract two numbers** (e.g., `10 - 4`) and print the result.
+	a=10
+	b=4
+	print(a-b)
+
+#- **Multiply two numbers** (e.g., `3 * 2`) and print the result.
+	a=3
+	b=2
+	print(a*b)
+
+#- **Divide two numbers** (e.g., `9 / 3`) and print the result.
+	a=3
+	b=3
+	print(a/b)
+
+#- **Create two variables** (one integer and one float) and add them together. Print the result.
+	a=5
+	b=5.5
+	print(a+b)
+
+#- **Create a list** of 3 numbers (e.g., `1, 2, 3`) and print it.
+	l=[1,2,3]
+	print(l)
+
+#- **Create a list** of 3 strings (e.g., `["apple", "banana", "cherry"]`) and print it.
+	l=["apple", "banana", "cherry"]
+	print(l)
+
+#- **Print the first item** of a list.
+	l=["apple", "banana", "cherry"]
+	print(l[0])
+
+#- **Print the last item** of a list.
+	l=["apple", "banana", "cherry"]
+	print(l[2])
+
+#- **Add an item** to the end of the list using `append()` and print the list.
+	l=["apple", "banana", "cherry"]
+	l.append("mango")
+	print(l)
+ 
+#- **Remove the first item** from a list and print the modified list.
+	l=["apple", "banana", "cherry"]
+	l.remove(l[0])
+	print(l)
+
+#- **Create an empty list** and print it.
+	l=[]
+	print(l)
