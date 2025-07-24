@@ -1,0 +1,21 @@
+import tkinter as tk
+import time
+def update_time():
+    current_time=time.strftime("%H:%M:%S")
+    am_pm = time.strftime("%p")
+    label.config(text=current_time)
+    ampm_label.config(text=am_pm)
+    label.after(1000,update_time)
+
+root=tk.Tk()
+root.title("Digital Clock")
+root.geometry("600x200")
+root.configure(bg="black")
+
+label=tk.Label(root,font=("courier new", 60, "bold"),bg="black",fg="White")
+label.pack(anchor="center")
+ampm_label=tk.Label(root,font=("courier new", 20, "bold"),bg="black",fg="White")
+ampm_label.pack(anchor="se")
+
+update_time()
+root.mainloop()
